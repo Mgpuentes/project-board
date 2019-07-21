@@ -20,7 +20,7 @@ import lombok.Data;
 @Data
 public class Project {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @NotBlank(message = "Project name is required")
     private String projectName;
