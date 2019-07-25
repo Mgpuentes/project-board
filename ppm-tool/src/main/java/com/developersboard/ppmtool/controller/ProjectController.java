@@ -20,10 +20,10 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 public class ProjectController {
 
-    @Autowired
+
     private final ProjectService  projectService;
 
-
+    @Autowired
     public ProjectController(ProjectService projectService) {
         this.projectService = projectService;
     }
