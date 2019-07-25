@@ -1,13 +1,11 @@
 package com.developersboard.ppmtool.backend.service.impl;
 
-import com.developersboard.ppmtool.backend.exception.ProjectIdExceptionResponse;
 import com.developersboard.ppmtool.backend.persistance.domain.Project;
 import com.developersboard.ppmtool.backend.persistance.repositories.ProjectRepository;
 import com.developersboard.ppmtool.backend.service.ProjectService;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
